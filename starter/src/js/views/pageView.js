@@ -65,7 +65,6 @@ class PaginationView extends View{
           </button>
             `
         }
-        ////AT PAGE 1 AND NO OTHER PAGES 
         return ''
     }
 }

@@ -74,7 +74,6 @@ const controlServings = function (servings) {
   model.updateServings(servings);
 
   ///UPDATING THE RECIPE VIEW
-  //recipeView.render(model.state.recipe);
   recipeView.update(model.state.recipe);
 };
 
@@ -101,9 +100,6 @@ const controlAddRecipe = async function (newRecipe) {
 
     //close form window
     addRecipeView.toggleWindow();
-
-    //render bookmar view
-    //bookmarksView.render(model.state.recipe)
 
     //change id in the url
     window.history.pushState(null, '', `#${model.state.recipe.id}`)
