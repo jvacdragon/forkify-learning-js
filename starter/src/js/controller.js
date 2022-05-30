@@ -128,4 +128,5 @@ const init = function () {
 
   addRecipeView._addHandlerUpload(controlAddRecipe);
 };
+
 init();
